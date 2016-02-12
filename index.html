@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IPC Bin Item Calculator</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+	<div class="row">
+		<div id="alert" role="alert">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 well" id="calculator">
+			<div class="header">
+				<img src="images/ipc" />
+
+				<h1>Plush Bin Calculator</h1>
+			</div>
+
+			<div>
+				<h2>Enter the dimensions of the item in inches:</h2>
+
+				<form id="bincalc">
+					<label>Height: </label><input type="text" id="item-height" size="4" /><label> inches</label></br>
+					<label>Width: </label><input type="text" id="item-width" size="4" /><label> inches</label></br>
+					<label>Depth: </label><input type="text" id="item-depth" size="4" /><label> inches</label></br>
+
+				<h2>Enter the dimensions of the bin in inches:</h2>
+
+					<label>Height: </label><input type="text" id="bin-height" size="4" /><label> inches</label></br>
+					<label>Width: </label><input type="text" id="bin-width" size="4" /><label> inches</label></br>
+					<label>Depth: </label><input type="text" id="bin-depth" size="4" /><label> inches</label></br>
+
+					<input class="btn btn-primary btn-lg" type="button" value="Calculate!" onclick="execute();">
+
+					<input class="btn btn-danger btn-lg" type="button" value="Reset" onclick="reset();">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<h4>Built by <a href="http://www.shelbysolomon.net" target="_blank">Shelby Solomon</a></h4>
+	</div>
+
+	<script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
