@@ -2,4 +2,4 @@
 
 This is a simple Javascript-based calculator for inventory quantity needs.
 
-See it live at (shelbysolomon.net)[http://calc.shelbysolomon.net].
+See it live at http://calc.shelbysolomon.net.
